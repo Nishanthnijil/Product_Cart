@@ -1,0 +1,43 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #3b1e54;
+    color: white;
+    align-items: center;
+    /* //vertical */
+    display: flex;
+    /* oneline alignment */
+    justify-content: space-around;
+    /* horizontal */
+  }
+  .logo {
+    color: azure;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .navbar ul {
+    display: inline-flex;
+    gap: 30px;
+  }
+  .navbar ul li {
+    list-style: none;
+  }
+  
+  .navbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .cartcount {
+    color: rgb(45, 1, 56);
+  
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+    width: 25px;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
